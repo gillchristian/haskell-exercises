@@ -1,6 +1,6 @@
 {-# LANGUAGE InstanceSigs #-}
 
-module Lib
+module State
   ( State (..),
   )
 where

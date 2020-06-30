@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 57ebe55af44caa861245f4e57246819853e264c5bf57a43dc4cc755dca933665
+-- hash: a61508f84e3a0968dfc3a5eebb230c53fb05996f65cc223c24a582096f5bc886
 
 name:           exercises
 version:        0.1.0.0
@@ -27,7 +27,7 @@ source-repository head
 
 library
   exposed-modules:
-      Lib
+      State
   other-modules:
       Paths_exercises
   hs-source-dirs:
