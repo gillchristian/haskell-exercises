@@ -1,5 +1,9 @@
 module Main where
 
+import State
+
 main :: IO ()
-main =
-  putStrLn "Hello World"
+main = do
+  putStrLn "Welcome to Haskell Exercises"
+  putStrLn "FizzBuzz:"
+  State.example

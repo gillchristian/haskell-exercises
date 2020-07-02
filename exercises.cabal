@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: a61508f84e3a0968dfc3a5eebb230c53fb05996f65cc223c24a582096f5bc886
+-- hash: f6065971a3138cc5378d4039c22abd2d636d746f793ff33bbdf4c651ec84f93a
 
 name:           exercises
 version:        0.1.0.0
@@ -34,6 +34,7 @@ library
       src
   build-depends:
       base >=4.7 && <5
+    , dlist
   default-language: Haskell2010
 
 executable exercises-exe
@@ -45,6 +46,7 @@ executable exercises-exe
   ghc-options: -threaded -rtsopts -with-rtsopts=-N
   build-depends:
       base >=4.7 && <5
+    , dlist
     , exercises
   default-language: Haskell2010
 
@@ -58,5 +60,6 @@ test-suite exercises-test
   ghc-options: -threaded -rtsopts -with-rtsopts=-N
   build-depends:
       base >=4.7 && <5
+    , dlist
     , exercises
   default-language: Haskell2010
